@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    <Spinner 
+        android:id="@+id/spinner_region"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:entries="@array/array_region"/>
+    
+    <EditText
+        android:id="@+id/PortUdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:inputType="number"
+        android:maxLength="5"
+        android:hint="@string/portUDP" />"
+    
+    <EditText
+        android:id="@+id/ZePseudo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:maxLength="8"
+        android:hint="@string/pseudo" />
+    
+        <Button
+            android:id="@+id/buttonDemarrer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/demarrer"
+            android:onClick="connection" />
+    
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">zeHobbitChat</string>
+    <string name="portUDP">Port UDP </string>
+    <string name="pseudo">Entrer votre pseudo ici !</string>
+    <string name="demarrer">Entrer dans hobbitChat</string>
+
+    <string-array name="array_region">
+        <item>Choisir une région</item>
+        <item>La Comté</item>
+        <item>Mordor</item>
+        <item>Isengard</item>
+    </string-array>
+
+    <string name="title_activity_hobbit_chat">HobbitChat</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
